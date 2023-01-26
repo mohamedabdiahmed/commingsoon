@@ -1,0 +1,35 @@
+body{
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    
+
+}
+h1{
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    transform: translateY(20px);
+    background: -webkit-linear-gradient(#eee, rgb(0, 255, 251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-size: 33px;
+    color: white;
+    text-transform: capitalize;
+}
+p{
+    text-align: center;
+    font-size: 44px;
+    transform: translateY(80px);
+    color: white;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.image img{
+    width: 50px;
+}
